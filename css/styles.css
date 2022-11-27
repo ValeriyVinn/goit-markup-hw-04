@@ -361,7 +361,8 @@ body {
   fill: #afb1b8;
 }
 
-.social-item:hover {
+.social-item:hover,
+.social-item:focus {
   fill: var(--wite-color);
   background-color: var(--accent-color);
 }
@@ -390,7 +391,8 @@ body {
   fill: #afb1b8;
 }
 
-.clients-items:hover {
+.clients-items:hover,
+.clients-items:focus {
   border-color: var(--accent-color);
   fill: var(--accent-color);
 }
@@ -480,7 +482,8 @@ body {
   fill: #ffffff;
 }
 
-.footer-social-item:hover {
+.footer-social-item:hover,
+.footer-social-item:focus {
   fill: var(--wite-color);
   background-color: var(--accent-color);
 }
@@ -544,6 +547,7 @@ body {
 }
 
 .work-examples {
+  color: #212121;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
