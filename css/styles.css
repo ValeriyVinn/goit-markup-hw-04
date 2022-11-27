@@ -256,28 +256,14 @@ body {
 .list.special-list .item + .item {
   margin-left: 30px;
 }
-.icon-one {
+
+.special-image {
   width: 270px;
   height: 120px;
-  background-image: url(../images/group1.svg);
-  margin-bottom: 30px;
-}
-.icon-two {
-  width: 270px;
-  height: 120px;
-  background-image: url(../images/group2.svg);
-  margin-bottom: 30px;
-}
-.icon-three {
-  width: 270px;
-  height: 120px;
-  background-image: url(../images/group3.svg);
-  margin-bottom: 30px;
-}
-.icon-four {
-  width: 270px;
-  height: 120px;
-  background-image: url(../images/group4.svg);
+  background-color: #f5f4fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 30px;
 }
 
@@ -476,7 +462,7 @@ body {
   display: flex;
   width: 44px;
   height: 44px;
-  background-color: #757575;
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   justify-content: center;
   align-items: center;
